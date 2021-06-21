@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+
+.fixed_width{
+    width: 1270px;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align-last: left;
+}
+.text-right{
+    text-align: right;
+}
+// header---
+
+.header{
+    background: #4b7bec;
+    .header_left{
+        float: left;
+        width: 30%;
+        a{
+            img{
+                width: 200px;
+            }
+        }
+    }
+
+    .header_right{
+        float: right;
+        width: 70%;
+        ul{
+            text-align: right;
+            li{
+                display: inline-block;
+                transition: .5s;
+                margin-left: -5px;
+                &:hover{
+                    background-color: #3867d6;
+                }
+                a{
+                    display: block;
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 20px;
+                    padding: 0 30px;
+                    line-height: 74px;
+                    border-right: 1px solid #fff;
+                }
+            }
+        }
+    }
+}
+
+// ---banner_section---
+
+.banner_section{
+    background: url(./img/image_7a4e0356ce.jpg) no-repeat center center;
+    background-size: 100%;
+    padding: 200px 0;
+
+    .banner_text{
+        h2{
+            background-color: rgba(0, 0, 0, 0.397);
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 34px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        h1{
+            background-color: #45aaf286;
+            color: #fff;
+            padding: 10px 0;
+            font-size: 40px;
+            border-radius: 5px;
+           max-width: 500px;
+           margin: auto;
+           margin-top: 30px;
+        }
+    }
+}
+
+// --service_section---
+
+.service_section{
+    .service_item{
+        float: left;
+        width: 33.3%;
+        border: 1px solid #ddd;
+        span{
+            i{
+
+            }
+        }
+        h3{
+
+        }
+        p{
+
+        }
+    }
+}
